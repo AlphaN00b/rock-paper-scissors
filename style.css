@@ -22,12 +22,15 @@ body {
 
 #score {
     display: flex;
+    justify-content: space-between;
+    width: 600px;
     gap: 48px;
     text-shadow: 2px 2px #f35b81;
 }
 
 #buttons {
     display: flex;
+    justify-content: space-evenly;
     gap: 16px;
     margin-top: 24px;
 }
